@@ -1,0 +1,31 @@
+body
+{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contentpaypal a
+{
+color: var(--green-color);
+}
+.contentpaypal h2
+{
+  color: var(--green-color);
+  padding: 0 20% 0 20%;
+}
+.contentpaypal h3
+{
+  color: var(--white-color);
+}
+
+.succesful
+{
+  background: var(--bluedark-color);
+}
+.fail
+{
+  background: #E22D2D;
+}

@@ -1,0 +1,308 @@
+
+
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Timmana&display=swap');
+/* variables */
+:root
+{
+--greendark-color:#6F8F16;
+--green-color: #98CE00;
+--white-color:white;
+--black-color: black;
+--bluedark-color: #001011;
+
+
+/* variables de espaciado */
+--space:10px;
+
+/* variables de tipografia */
+--normal:12px;
+/* box shadow */
+--box:0 0 3px #9a8c8c;
+}
+/* variables */
+
+
+html,body
+{
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
+}
+label
+{
+  font-size: var(--normal);
+}
+p
+{
+  text-align: justify;
+  font-size: var(--normal);
+}
+h1
+{
+  text-align: center;
+}
+h2
+{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+
+  background-color: var(--greendark-color);
+  padding: 20px;
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul
+{
+  display:flex;
+}
+nav li
+{
+  padding-left: var(--space);
+  list-style: none;
+}
+nav li a
+{
+  color: var(--white-color);
+  text-decoration: none;
+}
+ nav li a:hover
+ {
+   color: var(--black-color);
+ }
+.logo
+{
+  width: 200px;
+}
+
+
+.main_title
+{
+  padding: 10%;
+  text-align: center;
+}
+/* revisar */
+.productsbg
+{
+  background-image: url("../image/partetraserahome.png");
+  /* max-height: 20px; */
+  background-size: cover;
+  background-position: center top ;
+
+  padding: 0px 360px 150px 360px;
+
+  display: flex;
+}
+.productcard .contentcard
+{
+  background-color: var(--white-color);
+  padding: 15px;
+  box-shadow: var(--box);
+}
+
+/* revisar */
+.productcard
+{
+  padding: var(--space);
+  margin-top: -30px;
+}
+
+.image_content
+{
+  width: 256px;
+  height: 256px;
+}
+
+.mainbutton
+{
+  background-color: var(--green-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--black-color);
+  border: 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+ .productsbg li
+{
+  list-style: none;
+  padding: 0 20% 0 10%;
+}
+.mainbutton:hover
+{
+  background-color: var(--greendark-color);
+}
+.sections
+{
+  display: flex;
+  padding: 100px 150px 0 150px;
+}
+.separationtitle
+{
+  margin-top: 150px;
+}
+.benefiticon
+{
+  margin-left: 70PX;
+  margin-right: 70PX;
+
+  width: 100px;
+  height: 100px;
+}
+.benefiticon1
+{
+  margin: -10px 50px 0 50px;
+}
+.sectioncontent
+{
+  padding: var(--space);
+}
+.mentionsections
+{
+  display: flex;
+  padding: 100px 40px 50px 40px;
+}
+.mentioncontent
+{
+  margin: var(--space);
+  padding: var(--space) 20px var(--space) 20px;
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+}
+.imagesmention
+{
+  width: 256px;
+  height: 256px;
+
+  padding: 0 50px 0 50px;
+}
+
+footer
+{
+  background-color: var(--bluedark-color);
+  display: flex;
+  padding: 50px 100px var(--space) 100px;
+  justify-content: space-between;
+}
+.foot1
+{
+
+}
+.foot2
+{
+  color: var(--green-color);
+
+}
+.socialmedfoot
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul
+{
+  padding-inline-start: 0px;
+}
+footer li
+{
+  list-style: none;
+}
+footer li a
+{
+
+  color: var(--white-color);
+  text-decoration: none;
+}
+footer li a:hover
+{
+  color: var(--green-color);
+  cursor: pointer;
+}
+.contact a
+{
+  color: var(--green-color)
+}
+
+
+/* producto.html */
+.prdctadjust
+{
+  align-items: center;
+}
+.spacetittle
+{
+  padding: 20px 0 0 0;
+}
+
+/* venta.html */
+.modulo_pago
+{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+.modulo_pago_images
+{
+  max-width: 250px;
+  text-align: center;
+  margin: auto;
+}
+.data
+{
+  margin-top: var(--space);
+  margin-bottom: 6px;
+  width: 100%;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+
+.modulo_pago .mainbutton
+{
+  margin: 15px 0 0 0;
+}
+
+/* paypal */
+.paypal_image
+{
+  width: 200px;
+  height: 200px;
+}
+
+/* ---faqs---- */
+.faq_image_align
+{
+  max-width: 70px;
+  /* text-align: center; */
+  margin: auto;
+}
+.faq_text_center
+{
+  text-align: center;
+}
+
+/* termsandconditions */
+.tyclogo
+{
+  width: 250px;
+}
+
+/* servicio al cliente */
+.serv_img_adjust
+{
+  width: 200px;
+  max-width: 200px;
+  margin: auto;
+}
+.nostyle
+{
+  list-style: none;
+}
